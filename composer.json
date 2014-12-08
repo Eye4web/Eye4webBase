@@ -29,7 +29,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Eye4web\\ZfcUser\\Pm\\": "src/"
+            "Eye4web\\Base\\": "src/"
         }
     }
 }
