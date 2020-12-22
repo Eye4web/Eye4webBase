@@ -21,8 +21,8 @@ namespace Eye4web\Base\Mvc\Router\Http;
 use Traversable;
 use Zend\Mvc\Router\Exception;
 use Zend\Stdlib\ArrayUtils;
-use Zend\Mvc\Router\Http\RouteMatch;
-use Zend\Mvc\Router\Http\RouteInterface;
+use Zend\Router\Http\RouteMatch;
+use Zend\Router\Http\RouteInterface;
 use Zend\Stdlib\RequestInterface as Request;
 
 class NamespaceRoute implements RouteInterface
