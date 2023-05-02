@@ -19,7 +19,7 @@
 namespace Eye4web\Base\Mvc\Router\Http;
 
 use Traversable;
-use Zend\Mvc\Router\Exception;
+use Zend\Router\Exception;
 use Zend\Stdlib\ArrayUtils;
 use Zend\Router\Http\RouteMatch;
 use Zend\Router\Http\RouteInterface;
@@ -54,7 +54,7 @@ class NamespaceRoute implements RouteInterface
     /**
      * factory(): defined by RouteInterface interface.
      *
-     * @see    \Zend\Mvc\Router\RouteInterface::factory()
+     * @see    \Zend\Router\RouteInterface::factory()
      * @param  array|Traversable $options
      * @return Literal
      * @throws Exception\InvalidArgumentException
@@ -67,7 +67,7 @@ class NamespaceRoute implements RouteInterface
     /**
      * match(): defined by RouteInterface interface.
      *
-     * @see    \Zend\Mvc\Router\RouteInterface::match()
+     * @see    \Zend\Router\RouteInterface::match()
      * @param  Request      $request
      * @param  integer|null $pathOffset
      * @return RouteMatch|null
@@ -80,7 +80,7 @@ class NamespaceRoute implements RouteInterface
     /**
      * assemble(): Defined by RouteInterface interface.
      *
-     * @see    \Zend\Mvc\Router\RouteInterface::assemble()
+     * @see    \Zend\Router\RouteInterface::assemble()
      * @param  array $params
      * @param  array $options
      * @return mixed
